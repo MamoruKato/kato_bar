@@ -7,6 +7,7 @@
 
 # define the C compiler to us
 CC = g++
+INCLUDES=-Iinclude/
 
 # define any compile-time flags
 CFLAGS = -Wall -g -pthread -std=c++14
@@ -26,7 +27,7 @@ CFLAGS = -Wall -g -pthread -std=c++14
 #LIBS = -lmylib -lm
 
 # define the C source files
-SRCS = main.cpp cliente.cpp garcom.cpp pedido.cpp bar.cpp 
+SRCS = src/main.cpp src/cliente.cpp src/garcom.cpp src/pedido.cpp src/bar.cpp 
 
 # define the C object files 
 #
